@@ -1,0 +1,70 @@
+body {
+
+}
+
+#container {
+    width: 800px;
+    height: 800px;
+    background: darkred   ;
+    margin: 0 auto;
+}
+
+#left_contain {
+    width: 40px;
+    height: 800px;
+    float: left;
+}
+
+#right-contain {
+    width: 759px;
+    height: 800px;
+    background: whitesmoke;
+    float: left;
+}
+
+#profile {
+    height: 200px;
+}
+
+#left-child-profile {
+    width: 30%;
+    float: left;
+    height: 200px;
+}
+
+#left-child-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 28px;
+    border-right: 1px solid black;
+}
+
+#right-child-profile {
+    width: 70%;
+    float: left;
+    height: 200px;
+}
+
+#focus {
+    height: 150px;
+}
+
+#leftfocus {
+    width: 30%;
+    float: left;
+}
+#experience {
+    height: 300px;
+}
+
+#leftexperience {
+    width: 30%;
+    float: left;
+}
+
+#leftedu {
+    width: 30%;
+    float: left;
+}
