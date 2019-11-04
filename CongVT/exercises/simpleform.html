@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple form</title>
+    <style>
+        body {
+            overflow: hidden;
+            background-color: #ededed;
+        }
+        .wufoo {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+            border: 1px solid lightskyblue;
+            height: 600px;
+            width: 300px;
+            display: ruby-base;
+            align-items: end;
+            position: center;
+            border-radius: 15px;
+            box-shadow: 0px 0px 14px 0px grey;
+            background-color: white
+        }
+    </style>
+
+</head>
+<body>
+<form method="get" action="simpleform.html" class="wufoo">
+    <h2>What do you like to buy?</h2>
+    <select name="" id="">
+        <option value="  ">A</option>
+        <option value="">B (+0.5$)</option>
+        <option value="">C (+0.5$)</option>
+    </select>
+    <p>How many would you like to order?</p>
+    <input type="radio" name="rd">1 - $10 <br>
+    <input type="radio" name="rd">2 - $20 <br>
+    <input type="radio" name="rd">3 - $25 <br>
+
+    <p>Name: <span style="color:red">*</span></p>
+    <input type="text" name="firstname" placeholder="First name" size="15px"/>
+    <input type="text" name="lastname" placeholder="Last name" size="15px"/>
+    <p>Email:</p>
+    <input type="text" name="email" placeholder="your email here" size="32px">
+    <p>Phone number:</p>
+    <input type="tel" name="phonenumber" size="1" maxlength="4"> -
+    <input type="tel" name="phonenumber" size="1" maxlength="4"> -
+    <input type="tel" name="phonenumber" size="1" maxlength="4"/>
+
+    <p><input type="button" name="btSubmit" value="Submit"></p>
+
+
+
+
+</form>
+    
+    
+</body>
+</html>
