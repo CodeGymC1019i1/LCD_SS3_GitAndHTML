@@ -1,0 +1,28 @@
+
+#tb2{
+    border: 1px solid black;
+     border-collapse: collapse;
+    text-align: center;
+    width: 100 ;
+
+
+}
+.y3{
+    border: 1px solid blue;
+}
+
+.y1 {
+    background: yellow;
+}
+.y2 {
+    background: orangered;
+}
+.right {
+    text-align: right;
+}
+.y4 { color: blue;}
+h1 {
+    margin: auto;
+}
+
+

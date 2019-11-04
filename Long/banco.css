@@ -1,0 +1,7 @@
+tr:nth-child(2n+2) td:nth-child(2n+3) { background: black}
+tr:nth-child(2n+3) td:nth-child(2n+2) { background: black}
+td { width: 60px}
+tr { height: 60px}
+table { text-align: center; }
+#d1 { background: yellow}
+#r1 { background: yellow}
