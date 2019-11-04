@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+<form action="" method="post">
+    <div style="width: 30%; height:50px; background-color: darkgray; padding: 0.3cm; border-radius: 10px; display: block;" >
+        <table>
+            <tr>
+                <th>Amount</th>
+                <th>From Currency</th>
+                <th>To Currency</th>
+            </tr>
+            <tr>
+                <td><input type="number" min="0" id="num"></td>
+                <td>
+                    <select name="fromC">
+                        <option value="VND">Vietnam dong</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="toC" id="">
+                        <option value="USD">Dollar My</option>
+                    </select>
+                </td>
+                <td><button onclick="exchange();">Convert</button></td>
+            </tr>
+        </table>
+    </div>
+</form>
+<script>
+    function exchange() {
+        var amount = document.getElementById('num').value;
+        alert(amount/23000);
+    }
+</script>
+</body>
+</html>
